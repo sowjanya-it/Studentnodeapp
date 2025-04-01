@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 
 app.use(express.static('public'));
+app.get('/', (req, res) => {
+    res.send(' Hello...  Application available at /studreg.html  ');
+});
 app.get('/studreg.html', function (req, res) {
    res.sendFile( __dirname + "/" + "studreg.html" );
 })
@@ -28,3 +31,5 @@ app.get('/process_get', function (req, res) {
    
    console.log("Example app listening at http://%s:%s", host, port)
 })
+
+module.exports = app;

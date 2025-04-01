@@ -1,15 +1,14 @@
 {
-  "name": "nodeprog",
+  "name": "nodeapp",
   "version": "1.0.0",
-  "description": "this is a node application to display student registration details",
+  "description": "This is  a node application",
   "main": "studregnode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "node studregnode.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sowjanya-it/Studentnodeapp.git"
+    "url": "git+https://github.com/sowjanya-it/nodeapp.git"
   },
   "keywords": [
     "nodeapp"
@@ -17,10 +16,11 @@
   "author": "sowjanya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sowjanya-it/Studentnodeapp/issues"
+    "url": "https://github.com/sowjanya-it/nodeapp/issues"
   },
-  "homepage": "https://github.com/sowjanya-it/Studentnodeapp#readme",
+  "homepage": "https://github.com/sowjanya-it/nodeapp#readme",
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
 }
