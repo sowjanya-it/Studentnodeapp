@@ -4,7 +4,7 @@
   "description": "This is  a node application",
   "main": "studregnode.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
      "start": "node studregnode.js"
   },
   "repository": {
