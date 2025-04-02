@@ -5,10 +5,11 @@
   "main": "studregnode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
+     "start": "node studregnode.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sowjanya-it/nodeapp.git"
+    "url": "git+https://github.com/sowjanya-it/Studentnodeapp.git"
   },
   "keywords": [
     "nodeapp"
@@ -16,9 +17,9 @@
   "author": "sowjanya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sowjanya-it/nodeapp/issues"
+    "url": "https://github.com/sowjanya-it/Studentnodeapp/issues"
   },
-  "homepage": "https://github.com/sowjanya-it/nodeapp#readme",
+  "homepage": "https://github.com/sowjanya-it/Studentnodeapp#readme",
   "dependencies": {
     "express": "^5.1.0"
   },
