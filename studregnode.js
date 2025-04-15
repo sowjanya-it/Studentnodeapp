@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send(' Hello...  Application available at /studreg.html  ');
 });
 app.get('/studreg.html', function (req, res) {
-   res.sendFile( __dirname + "/" + "studreg.html" );
+   res.sendFile( __dirname + "/" + "public/studreg.html" );
 })
 
 app.get('/process_get', function (req, res) {
